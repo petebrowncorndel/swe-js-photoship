@@ -1,0 +1,25 @@
+{
+  "name": "swe-js-photoship",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "pship": "index.js"
+  },
+  "scripts": {
+    "test": "mocha ./tests",
+    "test:1a": "mocha ./tests/exercise-1a.test.js",
+    "test:1b": "mocha ./tests/exercise-1b.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "jimp": "^0.22.10"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
